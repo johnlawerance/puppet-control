@@ -5,3 +5,4 @@ mod 'helloworld',
   :ref => 'eb13738b0709c8bb6f50a61eae4bf2a6ce14943a'
 
 mod 'puppet/jira', '1.3.0'
+mod 'stahnma/epel', '1.1.1'
