@@ -1,0 +1,8 @@
+---
+  packages:
+    wget:
+      ensure: "latest"
+    htop:
+      ensure: "latest"
+    vim-common:
+      ensure: "latest"
