@@ -6,3 +6,7 @@
       ensure: "latest"
     vim-common:
       ensure: "latest"
+    screen:
+      ensure: "latest"
+    git:
+      ensure: "latest"
