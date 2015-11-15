@@ -4,7 +4,7 @@
       ensure: "latest"
     htop:
       ensure: "latest"
-    vim-common:
+    vim-enhanced:
       ensure: "latest"
     screen:
       ensure: "latest"
