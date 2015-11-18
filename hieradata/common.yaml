@@ -14,7 +14,7 @@
   users:
     jclark:
       ensure: "present"
-      uid: "1001"
+      uid: "1101"
       managehome: "true"
       password: "ENC[PKCS7,MIIB2gYJKoZIhvcNAQcDoIIByzCCAccCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAT1URmyZi7spKpjmTtNchG8D0IgFDcxrUMznjBIuCpzJxN/ddsBtZG+NcM2hhNIjyn70nLZr7CjAZE06DCYhag/WmRwIf1wHNezS7gYdHRteXOrh7rX7v3dta7XAmkq5kUKITfbfwlWNtJcqn1HQqJiwP57PN2P8SM5lySimf4u9mpywVRiclFfmRCAS7Q66cAamV76QZqjGsHJ/JHSp8rdynl4jMje92WgpJ1kIhRCB+dOrzDe7K9V6ajgHr4YbOkzU9pDNgpBNVzEDI6VaYSSLSJ3/3IKFFQAIBfvPxFRB+tWGHRPpU31b0QhIf/Jq9hnE44IDDnhgoGmJNOAgsWTCBnAYJKoZIhvcNAQcBMB0GCWCGSAFlAwQBKgQQoWefBUh8CIPTN+0DMRsqv4BwD6z7nwFtuhzw6eb1YDbKhUvp0sCR018dZ9Zl/izYBlkQMvyU01wNX3TrRn53f3fFFYvWwfF48tUkrrWM7cGcOTqgq5uY1sljSW8vPMApRatdPBQ6Go2ldvCKwwhcevT/uwyslyDyF/LZgju6eOfMrQ==]"
       groups:
@@ -24,7 +24,7 @@
   groups:
       jclark:
         ensure: "present"
-        gid: "1001"
+        gid: "1101"
 
   ssh_authorized_keys:
     'jclark@johnlawerance.com':
