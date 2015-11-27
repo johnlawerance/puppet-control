@@ -7,6 +7,12 @@ mod 'helloworld',
 mod 'baseos',
   :git => 'git@github.com:johnlawerance/puppet-baseos.git'
 
+mod 'jira-role',
+  :git => 'git@github.com:johnlawerance/puppet-jira-role.git'
+
+mod 'jira-profile',
+  :git => 'git@github.com:johnlawerance/puppet-jira-profile.git'
+
 mod 'puppet/jira', '1.3.0'
 mod 'stahnma/epel', '1.1.1'
 mod 'puppetlabs/stdlib', '4.9.0'
