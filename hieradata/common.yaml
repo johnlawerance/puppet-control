@@ -33,4 +33,5 @@
       key:  'AAAAB3NzaC1yc2EAAAADAQABAAABAQDJdv2OBDfXwJoe8AOp+rf291eAOVH8EtWJ+os5AxCQrQZW5zOL3mqtoFHjxL+pyoLFv8mZMxNaCi6Zq7bwjhKFG3stC4cTkcX9DSEocJpHl24LJnXxXirQe03gjPpB3X0qN5tz2ocI7W9ISb39CLRONpR6ZBKbZCfyeMqMC4PjGx0fkbHFXwW3MZMCthJmz6DHoOV/2ZlvDMx3nvdRlfCGVtPnz+g7ByFWwsXF/h4yAiuO4wUFreiu7yWev106kBNeIU8t5dIdWTpeC9PJYA0Vep+LJI85Jx+5xmVzKheXwnF0h1D6kKUrXMveeVcvDMp1GAKEn3dXzVRfHzUERbIf'
 
 
-
+  jira::version:       '6.2.7'
+  jira::javahome:      '/usr/lib/jvm/jre'
