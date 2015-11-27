@@ -16,3 +16,5 @@ mod 'jira-profile',
 mod 'puppet/jira', '1.3.0'
 mod 'stahnma/epel', '1.1.1'
 mod 'puppetlabs/stdlib', '4.9.0'
+mod 'nanliu/staging ', '1.0.3'
+mod 'mkrakowitzer/deploy ', '0.0.3'
