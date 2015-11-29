@@ -9,9 +9,11 @@ mod 'baseos',
 
 mod 'jira-role',
   :git => 'git@github.com:johnlawerance/puppet-jira-role.git'
+  :ref => 'develop'
 
 mod 'jira-profile',
   :git => 'git@github.com:johnlawerance/puppet-jira-profile.git'
+  :ref => 'develop'
 
 mod 'puppet/jira', '1.3.0'
 mod 'stahnma/epel', '1.1.1'
