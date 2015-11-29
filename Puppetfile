@@ -8,11 +8,11 @@ mod 'baseos',
   :git => 'git@github.com:johnlawerance/puppet-baseos.git'
 
 mod 'jira-role',
-  :git => 'git@github.com:johnlawerance/puppet-jira-role.git'
+  :git => 'git@github.com:johnlawerance/puppet-jira-role.git',
   :branch => 'develop'
 
 mod 'jira-profile',
-  :git => 'git@github.com:johnlawerance/puppet-jira-profile.git'
+  :git => 'git@github.com:johnlawerance/puppet-jira-profile.git',
   :branch => 'develop'
 
 mod 'puppet/jira', '1.3.0'
