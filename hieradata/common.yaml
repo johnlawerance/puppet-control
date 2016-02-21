@@ -22,9 +22,9 @@
         - jclark
 
   groups:
-      jclark:
-        ensure: "present"
-        gid: "1101"
+    jclark:
+      ensure: "present"
+      gid: "1101"
 
   ssh_authorized_keys:
     'jclark@johnlawerance.com':
@@ -33,15 +33,16 @@
       key:  'AAAAB3NzaC1yc2EAAAADAQABAAABAQDJdv2OBDfXwJoe8AOp+rf291eAOVH8EtWJ+os5AxCQrQZW5zOL3mqtoFHjxL+pyoLFv8mZMxNaCi6Zq7bwjhKFG3stC4cTkcX9DSEocJpHl24LJnXxXirQe03gjPpB3X0qN5tz2ocI7W9ISb39CLRONpR6ZBKbZCfyeMqMC4PjGx0fkbHFXwW3MZMCthJmz6DHoOV/2ZlvDMx3nvdRlfCGVtPnz+g7ByFWwsXF/h4yAiuO4wUFreiu7yWev106kBNeIU8t5dIdWTpeC9PJYA0Vep+LJI85Jx+5xmVzKheXwnF0h1D6kKUrXMveeVcvDMp1GAKEn3dXzVRfHzUERbIf'
 
 
-  jira::version:       '6.2.7'
-  jira::javahome:      '/usr/lib/jvm/jre'
-  jira::db:            'mysql'
-  jira::dbuser:        'jira'
-  jira::dbpassword:    'ENC[PKCS7,MIIBiQYJKoZIhvcNAQcDoIIBejCCAXYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAwvs6CwH0BcP1YR/HMPoTsATdiSTGxy0eCcyZlGhKMyrsFH/OOER1TTh44ukM8cZqxqt1BWFLBBwu+R4Jk5Z2lWe+HXYYhcoVGe97xGhZqtut1OdWcjujpAjRKYrxPGFSd0IvgFRuAb6ddT3HiMQp+xz1LlA/Isi+l4kd/FV2qK5+PO1weg1APocS/82J867HPELo4JespZEhU/n13V/r1GxkNvrjFRhr3mqrOggUo0nWEjLit+J6717FnpUZL9/aXu4svCAq5rlmnz1WIpxXnoJWHYmkXe6mDd2vT3HWiEupMGwfLg4EiusCG8tapOE9VrmiK99LHPwjFU6y7XUiwTBMBgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAF/K7Eas1WqtT3wdHK4eBjgCA0ZsUIC1nfKO4yp1Vw0xCgWKoEE64fIoPkBjm7dRKe/w==]'
-  jira::dbserver:      'localhost'
-  jira::dbdriver:      'com.mysql.jdbc.Driver'
-  jira::dbtype:        'mysql'
-  jira::dbport:        '3306'
+  jira::version:                 '6.2.7'
+  jira::javahome:                '/usr/lib/jvm/jre'
+  jira::db:                      'mysql'
+  jira::mysql_connector_version: '5.1.38'
+  jira::dbuser:                  'jira'
+  jira::dbpassword:              'ENC[PKCS7,MIIBiQYJKoZIhvcNAQcDoIIBejCCAXYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAwvs6CwH0BcP1YR/HMPoTsATdiSTGxy0eCcyZlGhKMyrsFH/OOER1TTh44ukM8cZqxqt1BWFLBBwu+R4Jk5Z2lWe+HXYYhcoVGe97xGhZqtut1OdWcjujpAjRKYrxPGFSd0IvgFRuAb6ddT3HiMQp+xz1LlA/Isi+l4kd/FV2qK5+PO1weg1APocS/82J867HPELo4JespZEhU/n13V/r1GxkNvrjFRhr3mqrOggUo0nWEjLit+J6717FnpUZL9/aXu4svCAq5rlmnz1WIpxXnoJWHYmkXe6mDd2vT3HWiEupMGwfLg4EiusCG8tapOE9VrmiK99LHPwjFU6y7XUiwTBMBgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAF/K7Eas1WqtT3wdHK4eBjgCA0ZsUIC1nfKO4yp1Vw0xCgWKoEE64fIoPkBjm7dRKe/w==]'
+  jira::dbserver:                'localhost'
+  jira::dbdriver:                'com.mysql.jdbc.Driver'
+  jira::dbtype:                  'mysql'
+  jira::dbport:                  '3306'
 
   jira::db::root_password: 'ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAeyzYXwzDDtGoqtweqBsv2h3lBCcRg1sTAh7Y1irB2UOauYIzJ+7iUqKr6RC7irG/nx7ZWxdbwv5nBepsvVDzoL8lzXQzEpb7N8YOKxShekf5UAxgHNLQ+nr0XagCLrf7Er79+MkTv23DN7CmFOz0al3tKsDE/kdHV/JIkUpKnl+StKWcvDtXccLALg56GN//9RGu7bZI2wGEKJlVaqD6Udmu0ytBBZkwa06MNf7GRH/OyoqLWUXT/Eh+yLeu/KmPQdi0x4MjMe50abzD5uyruL/56Elc49I0CBdpg3ZaeVwwYvRE81EfXYyO1fVa6WIjwjzsb5+6CIStUOh5fAku3TA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCaRwWq+QaFEXl4DHx6tyUqgBBcqkFkJEU7YOKAi/E4eGuF]'
   jira::db::jira_pass: 'ENC[PKCS7,MIIBiQYJKoZIhvcNAQcDoIIBejCCAXYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAfN0OcSrxu3Lv6bJh8/pIL5SYedBfZxKxMeNTyQW2lbBskAcfhPzC89vRLczgTjHvo5vqc2X/gqRUP5gZToCyzYdFYqMIpFPPruDwGgs8IoLyUrKW3K4/V/XOvzESg4bu8SkKuUJIuX5XgNIrg7P+hCDIQZ3yUy64jS1JRv4r0+HTaZNlY0IM23B66G3+wi1ODUZRj2WN490VZQBdTvYwDiRzTR/7VHvs/gThYg661r91SmXrKWfW6bEnkPuX/RraOvP7W9jSzo7f9ZJx4coFTfsOjtLthZICMLVZxIHlAWE92OSCMG0S8wE9GHmD27vUYHEntxo5wiz7ZhiycfaaKzBMBgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBBETfiZ3jIp/S9bWTpx+jzcgCBAGaQbJgx0Xe9RGM8zHGg6tpx9Q8FY99iWQ+vN+pw6vA==]'
