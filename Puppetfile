@@ -17,7 +17,7 @@ mod 'jira-profile',
 
 mod 'crucible',
   :git => 'git@github.com:johnlawerance/crucible.git',
-  :branch => 'master'
+  :branch => 'code_quality'
 
 mod 'puppet/jira', '1.3.0'
 mod 'stahnma/epel', '1.1.1'
