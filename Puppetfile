@@ -19,6 +19,10 @@ mod 'crucible',
   :git => 'git@github.com:johnlawerance/crucible.git',
   :branch => 'code_quality'
 
+mod 'xtrabackup',
+  :git => 'git@github.com:johnlawerance/xtrabackup.git',
+  :branch => 'master'
+
 mod 'puppet/jira', '1.3.0'
 mod 'stahnma/epel', '1.1.1'
 mod 'puppetlabs/stdlib', '4.9.0'
