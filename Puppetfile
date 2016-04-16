@@ -21,7 +21,7 @@ mod 'crucible',
 
 mod 'xtrabackup',
   :git => 'git@github.com:johnlawerance/xtrabackup.git',
-  :branch => 'develop'
+  :branch => 'issue/1/add_ubuntu_support'
 
 mod 'puppet/jira', '1.3.0'
 mod 'stahnma/epel', '1.1.1'
