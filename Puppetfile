@@ -17,7 +17,7 @@ mod 'jira-profile',
 
 mod 'crucible',
   :git => 'git@github.com:johnlawerance/crucible.git',
-  :branch => 'code_quality'
+  :branch => 'master'
 
 mod 'xtrabackup',
   :git => 'git@github.com:johnlawerance/xtrabackup.git',
